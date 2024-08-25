@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDevelopment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Your Course Landing Page</h1>
+    <form action="">
+      <label for="title">Course Title </label>
+      <input type="text" name="title" id="title" /><br />
+      <label for="desc">Course Description</label><br />
+      <textarea name="desc" id="desc" rows="10" cols="30"></textarea><br />
+      <label for="skill">Skill Level</label>
+      <select name="skill" id="skill">
+        <option value="e">Beginner Level</option>
+        <option value="e">Intermidiet Level</option>
+        <option value="e">Expert Level</option>
+        <option value="e">All Level</option></select
+      ><br />
+      <label for="chk">Ready to publish the course?</label>
+      <input type="checkbox" name="chk" id="chk" /><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
